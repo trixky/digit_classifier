@@ -18,9 +18,9 @@ npm run dev #localhost:5173
 ## Model caracteristics
 
 - dataset: MNIST (10 000 samples)
-- input layer: 784 neurons (28x28 pixels)
+- input layer: 784 (28x28 pixels)
 - hidden layers (2): 32 neurons (ReLU activation) + 16 neurons (ReLU activation)
-- output layer: 10 neurons (Softmax activation)
+- output layer: 10 (Softmax activation)
 - optimizer: Adam
 - loss: categoricalCrossentropy
 - metrics: accuracy
